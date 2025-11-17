@@ -1,0 +1,103 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #242424;
+}
+.navbar{
+    width: auto;
+    font-weight: 700;
+    font-size: 13px;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+}
+.btn{
+    background-color: #E85E28;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-weight: 700;
+}
+.btn :hover {
+    background-image: none;
+    color: white;
+    background-color: black !important ; 
+}
+.navbar-nav{
+    margin-left: 70%;    
+}
+ .card{ 
+  background-color: #242424;
+  border: none;
+  color: white;
+  font-weight: 700;
+}
+ .card-body{
+    text-align: center;
+}
+
+.img-fluid{
+    margin-top: 12%;
+    margin-left: 2%;
+    width: 600px;
+    border-radius: 20px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+}
+h5{
+    font-weight: 700;
+    font-size: 24px;
+    color: #E85E28;
+}
+h2{
+    font-weight: 700;
+}
+h4{
+    color: #E85E28;
+    font-weight: 700;
+    font-size: 30px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}   
+
+
+.team-section {
+  position: relative;
+  background: #1b1b1b;
+  padding: 80px 20px;
+  overflow: hidden; /* <--- Taşmayı tamamen engeller */
+}
+
+.bg-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: clamp(80px, 20vw, 220px); /* <--- Responsive dev yazı */
+  font-weight: 800;
+  color: transparent;
+  -webkit-text-stroke: 2px #2c2c2c; /* çerçeve efekti */
+  white-space: nowrap;
+  pointer-events: none;
+}
+.row{
+    margin: 10px;
+}
+.content h2 {
+  font-size: 48px;
+  color: white;
+}
+
+.sub-title {
+  color: #ff6b2b;
+  font-weight: 600;
+}
+.card img{
+    height: 300px;
+    border-radius: 15px;
+}
